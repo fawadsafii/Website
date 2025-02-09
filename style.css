@@ -1,0 +1,278 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body, html{
+    font-family: roboto, sans-serif, arial;
+    background: rgb(107, 161, 161);
+}
+.width-100{
+    width: 100%;
+    float: left;   
+}
+.container{
+    width: 1500px;
+    margin: 0px auto;
+}
+.top-header{
+    background: #2196f3;
+    padding: 5px 0px;
+    border-bottom: 1px solid #3131315e;
+}
+.news-list{
+    background: #fff;
+    color: red;
+    font-size: 20px;
+    padding: 6px;  
+}
+.headquote{
+    font-size: 18px;
+    color: #fff;
+    width: 80%;
+}
+.header-menu{
+    position: relative;
+    box-shadow: 0px 2px 5px 0px #00000036;
+}
+.logo{
+    width: fit-content;
+    float: left;
+}
+.main-menu{
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+}
+.main-menu a{
+    font-weight: 500;
+    color: #3a3a3a;
+    font-size: 20px;
+    text-decoration: none;
+}
+.main-menu li{
+    float: left;
+    padding: 12px 15px;
+}
+main-menu li:hover{
+    color: rgb(115, 160, 168);
+}
+.slider-width{
+    width: 100%;
+    height: auto;
+}
+.margin-top-50{
+    margin-top: 50px;
+}
+.width-33{
+    width: 33%;
+    float: left;
+}
+.latest-news{
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+.heading-sect{
+    width: 95%;
+    float: left;
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+    border: 1px solid #cfcfcf;
+    padding-top: 15px;
+    padding-left: 15px;
+    background: #1537d1;
+    color: rgb(252, 244, 244);
+}
+head-title{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.latest-news-ul{
+    padding: 0px;
+    list-style: none;
+    line-height: 40px;
+    background: #fff;
+}
+.event-list{
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-top: 1px;
+}
+.upcoming-event-list{
+    padding: 0px;
+    list-style: none;
+}
+.upcoming-event-list li{
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+.event-date{
+    background: #fff;
+    width: 35px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    color: #fff6f6;
+    padding: 8px;
+    margin-right: 15px;
+}
+.notice-board{
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-top: 1px;
+}
+.notice-board-list{
+    padding: 0px;
+    list-style: none;
+    line-height: 40px;
+}
+.notice-board-list li{
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+.our-principle{
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-top: 1px;
+}
+.useful-info-ul{
+    list-style: none;
+}
+.useful-info-ul li{
+    margin-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 15px;
+}
+.useful-info-ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.gov-sec-style{
+    margin-bottom: 30px;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 30px;
+}
+.founder-name{
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.founder-designation{
+    font-size: 15px;
+    color: black;
+    padding-left: 10px;
+    margin-top: 6px;
+
+}
+.founder-img{
+    width: 60%;
+    margin-bottom: 10px;
+}
+.width-40{
+    width: 40%;
+    float: left;
+}
+.width-60{
+    width: 60%;
+    float: left;
+}
+.about-us{
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-top: 1px;
+}
+.ceo-name{
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.ceo-designation{
+    font-size: 15px;
+    color: black;
+    padding-left: 10px;
+    margin-top: 6px;
+
+}
+.ceo-img{
+    width: 60%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    position: relative;
+
+}
+.width-40{
+    width: 40%;
+    float: left;
+}
+.width-60{
+    width: 60%;
+    float: left;
+}
+.about-us{
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-top: 1px;
+}
+.certificate{
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-top: 1px;
+}
+.gallery-head-style{
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 5px;
+    background: #1537d1;
+    padding: 2px 0px;
+} 
+.gallery {  
+    display: grid;  
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));  
+    gap: 5px;  
+    padding: 0px;  
+    max-width: 1200px; /* Limit the width of the gallery */  
+    margin: auto; /* Center the gallery */  
+}  
+
+.image-item {  
+    overflow: hidden; /* Optional: Helps with overflow */  
+    border-radius: 8px; /* Optional: for rounded corners */  
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: slight shadow */  
+}  
+
+.image-item img {  
+    width: 100%;  
+    height: 70%;  
+    display: block; /* Ensure the image element is a block */  
+} 
+
+
+
